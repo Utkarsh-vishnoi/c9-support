@@ -1,0 +1,23 @@
+{
+  "name": "c9-support",
+  "version": "1.0.0",
+  "description": "C9 Support files to work on Heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs-extra": "^9.0.0",
+    "http-proxy": "^1.18.0",
+    "magic-mongo": "^1.0.1",
+    "morgan": "^1.10.0",
+    "nanobar": "^0.4.2",
+    "socket.io": "^2.3.0",
+    "untildify": "^4.0.0"
+  }
+}
